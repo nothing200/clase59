@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding-top: 600px;
+    text-align: center;
+}
+.profile{
+    width:175px;
+    margin-bottom:50px;
+    border-radius: 50%;
+    
+}
+#Welcome{
+    position:absolute;
+    height: 800px;
+    color:aliceblue;
+    background:linear-gradient(blue 0%,grey 100%);
+    display: table;
+    width: 100%;
+    z-index:9;
+    left:0; 
+    top:0;
+    bottom:0;
+    right:0;
+    opacity:0.75;
+}
+.line {height: 6px;
+    background-color: cornflowerblue;
+    width:70px;
+    margin:8px auto;
+}
+.parallax-inner { 
+    display: table-cell;
+     position: relative;
+      text-align: center;
+      vertical-align: middle; 
+    }
+    
+#bio { padding: 50px;
+     text-align: center;
+      font-size: 42px; 
+    }
+    .menu{
+        list-style: none;
+        position:fixed;
+        top:10px;
+        right:30px;
+        cursor: pointer;
+        z-index: 10;
+    }
+    .links{
+        float:left;
+        padding: 10px;
+        background-color: linen;
+
+    }
+    .links hover{
+
+        background-color: plum;
+    }
